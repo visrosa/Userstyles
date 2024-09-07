@@ -3,7 +3,7 @@
 @namespace      github.com/openstyles/stylus
 @version        0.0.1
 @description    Readability tweaks for the Gentoo Handbook
-@author         rosav
+@author         visrosa
 ==/UserStyle== */
 @-moz-document url-prefix("https://wiki.gentoo.org/wiki/Handbook:AMD64/") {
 
