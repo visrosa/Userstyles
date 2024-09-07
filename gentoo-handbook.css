@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Stage
+@name           Gentoo Wiki readability tweaks
 @namespace      github.com/openstyles/stylus
-@version        0.0.1
+@version        0.0.3
 @description    Readability tweaks for the Gentoo Handbook
 @author         visrosa
 ==/UserStyle== */
-@-moz-document url-prefix("https://wiki.gentoo.org/wiki/Handbook:AMD64/") {
+@-moz-document url-prefix("https://wiki.gentoo.org/") {
 
     html,
     body {
