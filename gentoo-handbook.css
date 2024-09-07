@@ -7,6 +7,11 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://wiki.gentoo.org/wiki/Handbook:AMD64/") {
 
+    html,
+    body {
+        background-color: #ebe6da !important;
+    }
+
     .container {
         width: 120ch;
     }
