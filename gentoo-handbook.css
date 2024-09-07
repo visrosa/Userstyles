@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name           wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Stage
+@namespace      github.com/openstyles/stylus
+@version        0.0.1
+@description    Readability tweaks for the Gentoo Handbook
+@author         rosav
+==/UserStyle== */
+@-moz-document url-prefix("https://wiki.gentoo.org/wiki/Handbook:AMD64/") {
+
+    .container {
+        width: 120ch;
+    }
+
+    #content {
+        width: 80ch;
+        font-size: 125%;
+        line-height: 1.25;
+        font-family: 'Montserrat', 'Fira Code';
+    }
+
+    .mw-pt-progress {
+        background-image: none !important;
+        padding-right: 0 !important;
+        font-size: 80%;
+    }
+
+    .mw-pt-languages-list li::after {
+        content: ' |';
+    }
+}
